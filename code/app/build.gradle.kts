@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.code"
-    compileSdk = 35
+    namespace = "com.example.listycity"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.code"
+        applicationId = "com.example.listycity"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -40,4 +40,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation(files("C:/Users/abbas/AppData/Local/Android/Sdk/platforms/android-36/ndroid.jar"))
 }

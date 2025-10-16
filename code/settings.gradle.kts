@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "code"
+rootProject.name = "ListyCity"
 include(":app")
